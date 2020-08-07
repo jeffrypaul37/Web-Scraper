@@ -1,5 +1,4 @@
-#web scraping a job site
-#project by Jeffry Paul,Mohideen Irfan and Kesavan
+#web scraper for a job site
 import requests
 import openpyxl
 from openpyxl.styles import Font
@@ -58,7 +57,7 @@ for job in jobs:
     #load links for job locations and applications
     sheet.cell(row=i,column=4).value = '=HYPERLINK("{}", "{}")'.format("https://www.google.com/maps/d/edit?mid=1UPY1xwhrraaPoAicLpG13gotjSvsKKiU&ll=33.088772001409325%2C83.1646314013193&z=4", "click here")
     sheet.cell(row=i,column=5).value=  '=HYPERLINK("{}", "{}")'.format(link['href'],"APPLY")
-w.save('tech6.xlsx')
+w.save('spreadsheet.xlsx')
     
 
 
