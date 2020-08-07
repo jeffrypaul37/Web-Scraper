@@ -8,6 +8,7 @@
   Hence, instead of scrolling through several lists of jobs, the details of each job are made in a more readable format through the spreadsheet. Each job can be compared easily. It is also possible to apply for the desired job directly by clicking the apply link provided in the spreadsheet. Whenever the webpage gets updated, we get a new spreadsheet with the updated data. Hence, the data accessed is always up to date.
       
   Finally, this spreadsheet is imported to Google Maps and the exact location of each company listed is mapped. This helps users locate the company easily and also gives a view of the overall concentration of jobs in and around his/her current location.
+  In this project, we'll be scraping data from the job site www.monsterindia.com
 # Software Requirements
 - Python 3.6+
 - Microsoft Excel
@@ -16,12 +17,12 @@
 - Before running the code in the python file, you may need to install the libraries mentioned in the description.
 - You'll need a proper internet connection for this to work.
 # Running the code
+- Copy the code from the python file given and run it in your editor.
+- You may change the name of the .xlsx file given in the code.
 - Once you've run the code, you'll see the job titles, names of the companies and other important details listed out.
-- 
-  
- 
-      
-      
-
-      This project can be further developed to scrape multiple websites which will enable future job-seekers to find their desired job within a short period of time, without the burden of having to access several websites and looking up each job separately.
+- Also, a .xlsx file (with the same name as the one given in the program) will be created. This contains the details all job vacancies listed in an Excel spreadsheet. 
+- The links in the spreadsheet take the user directly to the job application page of the site and a map with the job locations of each listed job vacancy.
+# Contribute
+   Feel free to contribute to this project to further develop it to scrape multiple job sites.
+ # Have a great day :)
 
